@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "meta": {
+      ".read": true,
+      ".write": false
+    },
+    "reviews": {
+      ".read": true,
+      "$uid": {
+        ".write": "$uid === auth.uid"
+      }
+    },
+    "profile": {
+    	".read": true,
+      "$uid": {
+        ".write": "$uid === auth.uid"
+      }
+    }
+  }
+}

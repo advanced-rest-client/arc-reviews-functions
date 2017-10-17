@@ -1,0 +1,9 @@
+{
+  "name": "arc-install-website-reviews-functions",
+  "description": "Cloud Functions ARC install website reviews",
+  "dependencies": {
+    "firebase-admin": "~5.4.0",
+    "firebase-functions": "^0.7.0"
+  },
+  "private": true
+}
